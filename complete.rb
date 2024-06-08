@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 ruby '#{RUBY_VERSION}'
 gem 'rails', "7.1"
 gem 'pg', "~> 1.1"
-gem "puma", "~> 6.0"
+gem "puma", "6.0"
 gem 'bootstrap', '~> 5.1.3'
 gem 'devise'
 gem 'pundit'
