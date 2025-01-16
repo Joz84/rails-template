@@ -2,13 +2,13 @@ def add_gems
   <<-RUBY
 source 'https://rubygems.org'
 ruby '#{RUBY_VERSION}'
+gem 'nokogiri'
 gem 'rails', "7.1"
 gem 'pg', "~> 1.1"
 gem "puma", "6.0"
 gem 'bootstrap', '~> 5.1.3'
 gem 'devise'
 gem 'pundit'
-gem 'nokogiri', "1.18.1"
 gem 'ffi'
 gem 'mini_portile2'
 gem 'draper'
