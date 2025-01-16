@@ -5,7 +5,7 @@ ruby '#{RUBY_VERSION}'
 gem 'nokogiri'
 gem 'rails', "7.1"
 gem 'pg', "~> 1.1"
-gem "puma", "6.0"
+gem "puma"
 gem 'bootstrap', '~> 5.1.3'
 gem 'devise'
 gem 'pundit'
